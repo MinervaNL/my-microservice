@@ -1,0 +1,39 @@
+# 忽略 IntelliJ IDEA 和 Eclipse/STS 的配置文件
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+
+# 忽略 Eclipse/STS 的工作空间和编译文件
+bin/
+target/
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.swp
+
+# 忽略依赖项
+**/node_modules/
+
+# 忽略 Maven 构建的文件
+.mvn/
+
+# 忽略 Gradle 构建的文件
+.gradle/
+
+# 忽略配置文件中的一些本地环境敏感数据（如数据库配置等）
+application.properties
+application.yml
+
+# 忽略 JAR、WAR、EAR 文件
+*.jar
+*.war
+*.ear
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
